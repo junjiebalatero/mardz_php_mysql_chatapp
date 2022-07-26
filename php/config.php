@@ -1,8 +1,8 @@
 <?php
-  $hostname = "localhost";
-  $username = "root";
-  $password = "";
-  $dbname = "chatapp";
+  $hostname = "remotemysql.com";
+  $username = "Um74o5b0qS";
+  $password = "YgK5GnLEqI";
+  $dbname = "Um74o5b0qS";
 
   $conn = mysqli_connect($hostname, $username, $password, $dbname);
   if(!$conn){
